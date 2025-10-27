@@ -5,8 +5,8 @@ import './Card.css';
 const Card = (props) => {
     return ( 
         <div className="card">
-<img src={props.image}  />
-<h4>{props.desc}</h4>
+<img className='cardimg' src={props.image}  />
+<h4 className='cardtxt'>{props.desc}</h4>
 </div>
      );
 }
